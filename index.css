@@ -4,18 +4,28 @@ body {
 	text-align: center;
 }
 h1 {font-size: 36pt; font-family: 'Roboto Condensed', sans-serif; color: #3C3D3E ; text-align: center;}
-p {font-size: 14pt; font-family: 'Roboto Condensed', sans-serif; color: #3C3D3E ; text-align: center;}
+p {font-size: 12pt; font-family: 'Roboto Condensed', sans-serif; color: #3C3D3E ; text-align: center;}
 
-footer {
-	background-color: #fef8f2 ;
-}
 .ft {
 	font-size: 12pt;
 	font-family: 'Roboto Condensed', sans-serif;
 	color: white ;
-	text-align: right;
+	text-align: right ;
+ 	margin-right: 20px ;
+ 	opacity: 0.5 ;
 }
 .footer {
+	position: fixed ;
+	bottom: 0 ;
+	left: 0 ;
+	right: 0 ;
 	background-color: #676767 ;
-	width: 100%
+	width: 100% ;
+	height: 100px ;
+}
+.images {
+	height: 200px ;
+	margin-top: 30px ;
+	margin-right: 25px ;
+	margin-left: 25px ;
 }
