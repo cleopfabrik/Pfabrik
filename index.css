@@ -28,6 +28,9 @@ div.colonne2 {
 .images {
 	height: 175px ;
 	margin-top: 20px ;
+	border-width: 2px;
+	border-style: solid ;
+	border-color: #3C3D3E ;
 }
 
 .liens {
